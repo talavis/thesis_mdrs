@@ -1,0 +1,95 @@
+\documentclass[a4paper, 12pt]{report}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+\geometry{
+ inner=30mm,
+ outer=24mm,
+ top=20mm,
+ bottom=22mm
+ }
+
+\usepackage{tabularx}
+\usepackage{times}
+
+\usepackage{titlesec}
+\usepackage{lipsum}
+\titleformat{\section}{\normalfont\Large\bfseries\scshape}{\thesection}{1em}{}
+
+\titleformat{\chapter}{\normalfont\LARGE\bfseries\scshape}{\thechapter}{20pt}{}
+
+\def\thesistitle{Computational Exploration of the Medium-Chain Dehydrogenase / Reductase Superfamily}
+\def\thesisauthor{Linus J. Östberg}
+
+\begin{document}
+
+\newgeometry{
+ inner=30mm,
+ outer=24mm,
+ top=30mm,
+ bottom=20mm
+ }
+
+{\Large \noindent \MakeUppercase{\thesistitle}\par}
+\vspace{0.5cm}
+{\Large \noindent THESIS FOR DOCTORAL DEGREE (Ph.D.) \par}
+\vspace{0.5cm}
+{\noindent By \par}
+\vspace{0.5cm}
+{\Large \noindent \bf \thesisauthor\par}
+\vspace{0.5cm}
+
+
+{\large \noindent Lecture hall Petrén, Karolinska Institutet (Nobels väg 12B)\par
+\vspace{0.1cm}
+\noindent Friday June 2$^{nd}$ 2017 at 9:00\par}
+\vspace{0.5cm}
+{\small
+\begin{flushleft}
+\begin{tabularx}{\textwidth}{lXl}
+{\em Principal Supervisor:} & & {\em Opponent:}\\
+Prof. Jan-Olov Höög & & Prof. Jaume Farrés\\
+Karolinska Institutet & & Autonomous University of Barcelona\\
+Department of Medical Biochemistry and & & Department of Biochemistry and \\
+Biophysics & & Molecular Biology\\
+\\
+{\em Co-supervisor:} & & {\em Examination Board:}\\
+Prof. Bengt Persson & & Prof. Erik Lindahl\\
+Uppsala University & & Stockholm University\\
+Department of Cell and Molecular Biology & & Department of Biochemistry and Biophysics\\
+\\
+& & Assoc. Prof. Tanja Slotte\\
+& & Stockholm University\\
+& & Department of Ecology, Environment \\
+& & and Plant Sciences\\
+\\
+& & Prof. Elias Arnér\\
+& & Karolinska Institutet\\
+& & Department of Medical Biochemistry and\\
+& & Biophysics\\
+\end{tabularx}
+\end{flushleft}
+}
+
+\thispagestyle{empty}
+
+\restoregeometry
+
+\chapter*{Abstract}
+
+The medium-chain dehydrogenase/reductase (MDR) superfamily is a protein family with more than 170,000 members across all phylogenetic branches. In humans there are 18 representatives. The entire MDR superfamily contains many protein families such as alcohol dehydrogenase, which in mammals is in turn divided into six classes, class I--VI (ADH1--6). Most MDRs have enzymatical functions, catalysing the conversion of alcohols to aldehyde/ketones and vice versa, but the function of some members is still unknown.
+
+In the first project, a methodology for identifying and automating the classification of mammalian ADHs was developed using BLAST for identification and class-specific hidden Markov models were generated for identification.  By using the developed methodology, multiple new mammalian ADH members were identified. Finally, the generation of a phylogenetic tree of the sequences showed the existence of a sixth class, ADH6, in most non-primate mammals, though the sequences are commonly misclassified as ADH5 or ADH1-like in the sequence databases.
+
+The second project focused on the study of mammalian ADH5, which has never been isolated as a native protein, and whose function is unknown. The first part of the project was the expression of ADH5 fusion proteins in {\em E. coli} and COS cells (human ADH5 with glutathione-S-transferase in {\em E. coli} and rat ADH5-green fluorescent protein in COS cells). The proteins were expressed, but had no activity with any traditional ADH substrates. The results also indicated potential problems with the stability of the protein.
+
+The continuation of the project was the analysis of the structure using computational methods. A structural model of ADH5 was generated using the homolog ADH1C as template. Molecular dynamics was subsequently used to study the properties of the model. Along with the structural analysis, extensive sequence analysis was also performed, identifying multiple positions that were unique for AHD5, e.g. Lys51 at the active site and Gly305 in the dimer-interacting region, which replace a highly conserved Pro found in ADH1--4. The combination of the structural simulations and the sequence analysis led to the conclusion that the lack of success in the isolation of ADH5 could potentially be explained by instabilities in the region involved in dimer formation, preventing the formation of the active dimers found in other ADHs. The function of ADH5 is therefore concluded to be different than that of other ADHs, but is as of yet still unknown.
+
+The final project focused on the study of a set of human MDRs, using a combination of analyses of the structures and sequences, leading to the development of theoretical models of the binding pockets in each of the proteins, pinpointing the important residues. The positions identified to be involved in the binding of the coenzyme NADP(H) were similar between the proteins and matched currently available information in the databases, as well as further residues. The residues involved in the binding of substrates varied between the proteins, and the analysis led to the identification of three different types of substrate binding.
+
+\thispagestyle{empty}
+
+
+\end{document}
