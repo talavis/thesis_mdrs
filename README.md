@@ -1,5 +1,6 @@
 # thesis_mdrs
 My PhD thesis, covering multiple studies of MDRs.
+The print version is available as a PDF in the [KI open archive](https://openarchive.ki.se/xmlui/handle/10616/45893).
 
 © 2017 Linus Östberg. [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), unless otherwise stated.
 
