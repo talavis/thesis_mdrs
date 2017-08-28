@@ -1,4 +1,4 @@
-# thesis_mdrs
+# Computational Exploration of the Medium-Chain Dehydrogenase/Reductase Superfamily
 My PhD thesis, covering multiple studies of MDRs.
 The print version is available as a PDF in the [KI open archive](https://openarchive.ki.se/xmlui/handle/10616/45893).
 
